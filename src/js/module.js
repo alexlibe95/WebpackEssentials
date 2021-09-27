@@ -1,9 +1,5 @@
-function hello() {
-  console.log('Hello fromn dfdfdfdf');
-}
-
 function sup() {
-  console.log('Hello fromn sup');
+  console.log('Hello fromn module');
 }
 
-export {hello, sup}
+export {sup}
