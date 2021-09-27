@@ -1,0 +1,36 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Webpack tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "alex lymperopoulos",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.54.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.3.0",
+    "cssnano": "^5.0.8",
+    "lost": "^8.3.1",
+    "mini-css-extract-plugin": "^2.3.0",
+    "node-sass": "^6.0.1",
+    "postcss-loader": "^6.1.1",
+    "rucksack-css": "^1.0.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.2.6",
+    "webpack-cli": "^4.8.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
